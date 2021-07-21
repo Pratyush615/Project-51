@@ -1,0 +1,52 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white
+}
+body{
+    background-color: whitesmoke;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    padding: 35px;
+    margin: 30px;
+    width: 360px;
+    font-family: fantasy;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+
+h2{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    opacity: 100;  
+    color: white; 
+    font-size: 50px;
+    font-family: "fantasy", papyrus;  
+}
+h3{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    opacity: 100;  
+    color: white; 
+    font-size: 20px;
+    font-family: "fantasy", papyrus;  
+}
